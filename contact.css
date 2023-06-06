@@ -15,7 +15,7 @@
 
 
 
-/* Gallery section*/
+/* Business section*/
 
 .section {
     position: relative;
@@ -63,33 +63,44 @@
   
 
 
-/* Gallery Details*/
-
-.sectionn {
-  width: 400px;
+/* Contact Form*/
+.form-group {
+  margin-bottom: 10px;
 }
-
-.sectionn img {
-  width: 80%;
-  height: auto;
-  transition: transform 0.3s ease;
+.form-group label {
+  display: inline-block;
+  width: 100px;
 }
-
-.sectionn:hover img {
-  transform: scale(1.1);
-}
-
-.sectionn p {
-  margin-top:15px;
-  font-weight: bold;
-  color: black;
-  transition: color 0.3s ease;
-}
-
-.sectionn p:hover {
-  color: green;
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+  width: 200px;
 }
  
+
+
+
+.sectionnn {
+  background-color: green;
+  padding: 40px;
+}
+.big-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+.sub-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+.texttt {
+  font-size: 18px;
+  line-height: 1.5;
+  color: white;
+}
 
 
     /*useful links*/
